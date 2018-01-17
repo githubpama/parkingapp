@@ -16,5 +16,10 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void Startseite_Load(object sender, EventArgs e)
+        {
+            label4.Text = Application.ProductVersion;
+        }
     }
 }

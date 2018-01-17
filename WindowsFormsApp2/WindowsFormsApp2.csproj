@@ -142,6 +142,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bilder\images.png" />
     <Content Include="newdb.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

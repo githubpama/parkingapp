@@ -28,74 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.newdbDataSet = new WindowsFormsApp2.newdbDataSet();
-            this.newdbDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.newdbDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSetBindingSource1)).BeginInit();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pmtools = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // label4
             // 
-            this.button1.Location = new System.Drawing.Point(350, 142);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Suchen";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(729, 613);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "label4";
             // 
-            // textBox1
+            // pmtools
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 142);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(149, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.DataSource = this.newdbDataSetBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(154, 210);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // newdbDataSet
-            // 
-            this.newdbDataSet.DataSetName = "newdbDataSet";
-            this.newdbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // newdbDataSetBindingSource
-            // 
-            this.newdbDataSetBindingSource.DataSource = this.newdbDataSet;
-            this.newdbDataSetBindingSource.Position = 0;
-            // 
-            // newdbDataSetBindingSource1
-            // 
-            this.newdbDataSetBindingSource1.DataSource = this.newdbDataSet;
-            this.newdbDataSetBindingSource1.Position = 0;
+            this.pmtools.AutoSize = true;
+            this.pmtools.Location = new System.Drawing.Point(658, 613);
+            this.pmtools.Name = "pmtools";
+            this.pmtools.Size = new System.Drawing.Size(43, 13);
+            this.pmtools.TabIndex = 1;
+            this.pmtools.Text = "pmtools";
             // 
             // Startseite
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 694);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(788, 635);
+            this.Controls.Add(this.pmtools);
+            this.Controls.Add(this.label4);
             this.Name = "Startseite";
-            this.Text = "Startseite";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.newdbDataSetBindingSource1)).EndInit();
+            this.Load += new System.EventHandler(this.Startseite_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,9 +66,15 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource newdbDataSetBindingSource1;
         private newdbDataSet newdbDataSet;
         private System.Windows.Forms.BindingSource newdbDataSetBindingSource;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label pmtools;
     }
 }
