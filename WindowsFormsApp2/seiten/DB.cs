@@ -31,5 +31,10 @@ namespace WindowsFormsApp2
             this.tableTableAdapter.Fill(this.newdbDataSet.Table);
 
         }
+
+        private void tableDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

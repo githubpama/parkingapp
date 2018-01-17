@@ -218,6 +218,7 @@
             this.tableDataGridView.Name = "tableDataGridView";
             this.tableDataGridView.Size = new System.Drawing.Size(724, 514);
             this.tableDataGridView.TabIndex = 1;
+            this.tableDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableDataGridView_CellContentClick);
             // 
             // dataGridViewTextBoxColumn1
             // 
