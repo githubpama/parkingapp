@@ -17,16 +17,11 @@ namespace WindowsFormsApp2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Startseite());
+            Application.Run(new seite3());
 
            
 
-            //Console.WriteLine("The version of the currently executing assembly is: {0}",
-            //Assembly.GetExecutingAssembly().GetName().Version);
-
-            //Console.WriteLine("The version of mscorlib.dll is: {0}",
-            //    typeof(String).Assembly.GetName().Version);
-
+ 
         }
 
 

@@ -16,5 +16,10 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void ribbonPanel2_Click(object sender, EventArgs e)
+        {
+            new Form().Show();
+        }
     }
 }
